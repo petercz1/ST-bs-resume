@@ -27,7 +27,13 @@ function send_data(){
     var name = $('#name').val();
     var email = $('#email').val();
     var comments = $('#comments').val();
-    console.log('data:' + name + ', ' + email + ', ' + comments);
+    var contact = {
+        name: name,
+        email: email,
+        comments: comments
+    };
+    console.log(contact);
+    
 }
 
 
