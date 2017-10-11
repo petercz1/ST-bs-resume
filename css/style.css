@@ -18,6 +18,10 @@
   /* White */
   color: #555555; }
 
+.pc-bg-4 {
+  background-color: #2f2f2f;
+  color: #ffffff; }
+
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px; }
