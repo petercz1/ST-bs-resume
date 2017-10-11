@@ -1,1 +1,1 @@
-new repo for bs_resume
+new repo for bs_company
