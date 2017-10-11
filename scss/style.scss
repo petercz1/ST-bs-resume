@@ -4,7 +4,9 @@ body {
     color: #f5f6f7;
 }
 
-p {font-size: 1em;}
+p {
+    font-size: 1em;
+}
 
 .pc-bg-1 {
     background-color: #1abc9c;
@@ -40,8 +42,8 @@ p {font-size: 1em;}
     padding-bottom: 70px;
 }
 
-.pc-center-image{
-    display:inline;
+.pc-center-image {
+    display: inline;
 }
 
 .navbar {
@@ -58,7 +60,8 @@ p {font-size: 1em;}
     color: #1abc9c !important;
 }
 
-
-
+.pc-margin {
+    margin-bottom: 45px;
+}
 
 
