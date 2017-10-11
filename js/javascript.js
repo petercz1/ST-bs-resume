@@ -33,7 +33,17 @@ function send_data(){
         comments: comments
     };
     console.log(contact);
-    
+    $.get('results.php', contact).done(success).fail(oops);
+}
+
+function success(data){
+    console.log('Inside success');
+    console.log(data);
+}
+
+function oops(data){
+    console.log('Inside oops');
+    console.log(data);
 }
 
 
